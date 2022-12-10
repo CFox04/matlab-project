@@ -23,7 +23,7 @@ for r = 1:1:ROWS
     end
 end
 
-designation = sprintf('C%i X %i', firstnum_input, secondnum_input);
+designation = sprintf('C%s X %s', num2str(firstnum_input), num2str(secondnum_input));
 
 % If row was not found show an error and end the program
 if isempty(row)
